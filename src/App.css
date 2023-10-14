@@ -1,0 +1,93 @@
+*{
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: white;
+}
+
+#containeer{
+  /* border: 1px solid; */
+  padding: 10px;
+  width: 65vw;
+  height: fit-content;
+  margin: 5% auto;
+}
+
+#title{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+}
+
+#title>div{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+#title h1{
+  text-transform: capitalize;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#timer, #timer>div{
+  display: flex;
+  gap: 10px;
+  padding: 5px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#typing-test>p{
+  color: gray;
+  font-size: 25px;
+  font-family:monospace;
+  line-height: 2.5rem;
+}
+
+#typing-test>input{
+  width: 95%;
+  height: fit-content;
+  outline: none;
+  padding: 10px;
+  margin: 2%;
+}
+
+#refresh-btn{
+  text-align: center;
+  margin-top: 7%;
+}
+
+#reset-btn, #words-btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  padding: 5px;
+}
+
+#reset-btn>button, #words-btn>button{
+  background-color: white;
+  color: black;
+  padding: 5px;
+  width: 40px;
+  border-radius: 25%;
+}
+
+#footer{
+  display: flex;
+  justify-content: space-between;
+}
+
+#footer>div>i{
+  margin-right: 20px;
+  font-size: 25px;
+}
+
+#footer>select{
+  background-color: white;
+  color: black;
+  padding: 10px;
+  border-radius: 10px;
+}
